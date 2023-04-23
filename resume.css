@@ -1,0 +1,71 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+.navbar {
+    background-color: #333; /* Set the background color of the navbar */
+    height: 50px; /* Set the height of the navbar */
+    display: flex; /* Use flexbox to position the links */
+    justify-content: space-between; /* Separate the links into two sections */
+    align-items: center; /* Center the links vertically */
+    padding: 0 20px; /* Add some padding to the navbar */
+  }
+  
+  .nav-left {
+    display: flex; /* Use flexbox to position the links */
+    align-items: center; /* Center the links vertically */
+  }
+  
+  .nav-right {
+    display: flex; /* Use flexbox to position the links */
+    align-items: center; /* Center the links vertically */
+  }
+  
+  .nav-left a {
+    color: rgb(255, 255, 255); /* Set the color of the links */
+    text-decoration: none; /* Remove the default underline from the links */
+    margin-right: 50px; /* Add some space between the links */
+    font-weight: bold; /* Make the links bold */
+  }
+  
+  /* Style the elements in the nav-right div */
+  .nav-right a {
+    /* Add any styles you want here */
+  }
+  
+  .Henrie{
+    color: rgb(255, 255, 255); /* Set the color of the links */
+    text-decoration: none; /* Remove the default underline from the links */
+    margin-right: 50px; /* Add some space between the links */
+    font-weight: bold; /* Make the links bold */
+    font-family: 'Trebuchet MS';
+    font-size: 20px;
+    position: relative;
+    right: -30px;
+  }
+
+  .nav-left a:hover {
+    background-color: rgba(255, 255, 255, 0.2); /* Change the background color on hover */
+    transform: scale(1.1); /* Increase the size slightly on hover */
+  }
+
+  /*Resume*/
+
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+    border: 2px solid black; /* Add a 2px solid black border to the container */
+  }
+  

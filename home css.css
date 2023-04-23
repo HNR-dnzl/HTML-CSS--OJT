@@ -1,0 +1,104 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+.navbar {
+    background-color: #333; /* Set the background color of the navbar */
+    height: 50px; /* Set the height of the navbar */
+    display: flex; /* Use flexbox to position the links */
+    justify-content: space-between; /* Separate the links into two sections */
+    align-items: center; /* Center the links vertically */
+    padding: 0 20px; /* Add some padding to the navbar */
+  }
+  
+  .nav-left {
+    display: flex; /* Use flexbox to position the links */
+    align-items: center; /* Center the links vertically */
+  }
+  
+  .nav-right {
+    display: flex; /* Use flexbox to position the links */
+    align-items: center; /* Center the links vertically */
+  }
+  
+  .nav-left a {
+    color: rgb(255, 255, 255); /* Set the color of the links */
+    text-decoration: none; /* Remove the default underline from the links */
+    margin-right: 50px; /* Add some space between the links */
+    font-weight: bold; /* Make the links bold */
+  }
+  
+  /* Style the elements in the nav-right div */
+  .nav-right a {
+    /* Add any styles you want here */
+  }
+  
+  .Henrie{
+    color: rgb(255, 255, 255); /* Set the color of the links */
+    text-decoration: none; /* Remove the default underline from the links */
+    margin-right: 50px; /* Add some space between the links */
+    font-weight: bold; /* Make the links bold */
+    font-family: 'Trebuchet MS';
+    font-size: 20px;
+    position: relative;
+    right: -30px;
+  }
+
+  .nav-left a:hover {
+    background-color: rgba(255, 255, 255, 0.2); /* Change the background color on hover */
+    transform: scale(1.1); /* Increase the size slightly on hover */
+  }
+
+  /*center image*/
+  
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .image {
+    margin-right: 30px;
+    position: relative;
+    left: 120px;
+    bottom: -100px;
+  }
+  
+  .description {
+    text-align: justify;
+    padding: 10px;
+    font-size: 16px;
+    line-height: 1.5;
+    position: relative;
+    right: 80px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;  }
+  
+  .description h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+
+  /*icon*/
+
+  a {
+  display: inline-block; /* make the link a block-level element to contain the image */
+  position: relative; /* position the link relative to its container */
+}
+
+a img {
+  width: 50px; /* set the width of the image */
+  height: 50px; /* set the height of the image */
+  transition: transform 0.2s; /* add a transition effect to the image */
+  position: relative;
+  right: -480px;
+}
+
+a:hover img {
+  transform: scale(1.2); /* increase the size of the image when the user hovers over it */
+  cursor: pointer; /* change the cursor to a pointer when the user hovers over the image */
+}
